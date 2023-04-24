@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConversationFactory : MonoBehaviour
+public class DirectoryBuilder : MonoBehaviour
 {
-    private MessageFactory messFact;
+    public string rootDirectory;
+    private FolderFactory folderFact;
 
     // Start is called before the first frame update
     void Start()

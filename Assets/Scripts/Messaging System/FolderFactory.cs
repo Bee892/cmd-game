@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FolderFactory : MonoBehaviour
 {
+    private ConversationFactory convFact;
+
     // Start is called before the first frame update
     void Start()
     {
